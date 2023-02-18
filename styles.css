@@ -1,0 +1,108 @@
+*{
+    font-family:"inter";
+}
+.container{
+    display: flex;
+    flex-direction: row;
+}
+.head{
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    font-weight: 100px;
+    font-size: 30px;
+    line-height: 80px;
+    padding-left: 50px;
+}
+body{
+    color: white;
+    background-color: black;
+    margin-left: 25px;
+}
+.image{
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 400px;
+    height: 270px;
+    margin-top: 25px;
+    
+}
+.name{
+    padding: 30px;
+    margin-left: 109px;
+    font-size: 20px;
+    }
+img{
+    border: 1px solid white;
+    border-radius: 150px;
+    position: relative;
+    top: 30px;
+    left:115px;
+    width: 175px;
+    height:175px;
+}
+li{
+    margin-top: 20px;
+}
+.detail{
+    margin-top: 25px;
+    border: 1px solid white;
+    border-radius: 25px;
+    width: 400px;
+    height: 250px;
+}
+.links{
+    border: 1px solid hwb(0 100% 0%);
+    border-radius: 25px;
+    width: 400px;
+    height: 210px;
+    margin-top: 25px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.link{
+   padding: 10px;
+}
+.icon, h4{
+   margin-left: 25px;
+   color: white;
+   font-size: 20px !important;
+}
+.table-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px;
+    border-collapse: collapse;
+  }
+.right{
+    margin-top: 25px;
+    margin-left: 25px;
+    border: 2px solid white;
+    border-radius: 20px;
+    width:100%;
+  }
+.tabname{
+    margin-left: 25px;
+  }
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid gray;
+    border-radius:20px;
+    text-align: left;
+    padding: 7px;
+    color: gray;
+}
+th{
+    border-radius:20px;
+}
+input[type=checkbox] {
+    width: 20px;
+    height: 20px;
+}
